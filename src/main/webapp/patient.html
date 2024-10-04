@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert Patient</title>
+    <link rel="stylesheet" type="text/css" href="./patient.css">
+</head>
+<body>
+<div class="container">
+    <h1>Insert Patient Information</h1>
+    <form action="insert" method="post" class="form-container">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="Name" placeholder="Enter patient name" required><br>
+
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="Phone" placeholder="Enter phone number" required><br>
+
+        <label for="emergency_phone">Emergency Phone:</label>
+        <input type="text" id="emergency_phone" name="Emergency_phone" placeholder="Enter emergency phone" required><br>
+
+        <label for="ID">Patient ID:</label>
+        <input type="text" id="ID" name="ID" placeholder="Enter patient ID" required><br>
+
+        <label for="birth_date">Birth Date:</label>
+        <input type="text" id="birth_date" name="Birth_date" placeholder="Enter birth date (YYYYMMDD)" required><br>
+
+        <input type="submit" value="Submit" class="submit-button">
+    </form>
+</div>
+</body>
+</html>
